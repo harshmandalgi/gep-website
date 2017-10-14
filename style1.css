@@ -1,1 +1,14 @@
-h1{ background-color:powderblue; }
+<html>
+  <head>
+   <style>
+    .B{ 
+       background-color:powderblue; }
+    #A{ 
+       background-color:red; }
+   </style>
+  </head>
+ <body>
+  <h1 id = A> yoooo</h1>
+  <h1 class = B> yoooo </h1>
+ </body>
+<lhtml>
