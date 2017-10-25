@@ -31,3 +31,17 @@ li a {
 li a:hover {
  		background-color: #808080;
  			     }
+ button{
+    	  background-color: yellow;
+          border: none;
+          color: white;
+          padding: 15px 30px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          box-shadow: 5px;
+          }
+.kallan{
+         background-color: black;
+}
