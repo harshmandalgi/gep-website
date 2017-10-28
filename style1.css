@@ -1,3 +1,6 @@
+* {
+  box-sizing : border-box;
+}
 
 h1{
     margin-top:10px;
@@ -102,4 +105,9 @@ li a:hover {
    margin-left: -10px;
    margin-right: -10px;
    background-color: black;
+}
+
+.container{
+  margin-top: 50px;
+
 }
