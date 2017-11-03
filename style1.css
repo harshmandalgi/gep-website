@@ -26,7 +26,7 @@ li {
 li a {
  		display: block;
  		color: white;
- 		text-align: center;
+d 		text-align: center;
  		padding: 8px 14px;
  		text-decoration: none;
  		 }
@@ -36,17 +36,17 @@ li a:hover {
  			     }
  .button {
     background-color: #4CAF50; /* Green */
-    border: none;
+o    border: none;
 
     color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+#    font-size: 16px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+i    transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 8px;
 }
@@ -59,7 +59,7 @@ li a:hover {
     border: 2px solid #383838;
 }
 
-.button1:hover {
+#.button1:hover {
     background-color: #383838;
     color: white;
     transform:scale(1.3,1.3);
@@ -70,7 +70,7 @@ li a:hover {
 .button2 {
     background-color: #C0C0C0;
     color: black;
-     margin-left: 15px;
+      margin-left: 15px;
      margin-right: 15px;
     border: 2px solid #383838;
 }
@@ -117,3 +117,28 @@ li a:hover {
 
 }
 
+#icons{
+     position: fixed;
+  top: 70px;
+  left: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+
+}
+#icons li a {
+  display: block;
+}
+
+#icons li a img {
+	display: block;
+	max-width:40px;
+  padding: 10px;
+  -webkit-transition:  background .2s ease-in-out;
+  -moz-transition:  background .2s ease-in-out;
+  -o-transition:  background .2s ease-in-out;
+  transition:  background .2s ease-in-out;
+}
+#icons li a:hover img {
+  background: rgba(0, 0, 0, .2);
+}
