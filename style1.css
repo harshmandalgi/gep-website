@@ -121,7 +121,17 @@ li a:hover {
 
 .container{
   margin-top: 50px;
-  
+
+}
+
+#icons{
+     position: fixed;
+  top: 70px;
+  left: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+
 }
 
 #icons{
