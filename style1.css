@@ -25,7 +25,7 @@ li {
 li a {
  		display: block;
  		color: white;
-d 		text-align: center;
+ 		text-align: center;
  		padding: 8px 14px;
  		text-decoration: none;
  		 }
@@ -160,7 +160,16 @@ li a:hover {
   background: rgba(0, 0, 0, .2);
 }
 
-.rightpro{
-  background-image:url("300172.jpg");
 
+.navbar1{
+    
+    margin-top: -28px;
+    margin-bottom: -28px;
+}
+
+
+.navbar2{
+    
+    margin-top: -28px;
+    
 }
