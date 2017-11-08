@@ -1,0 +1,59 @@
+
+
+h1{
+    margin-top:10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-image:url("job1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+ul {
+ 		list-style-type: none;
+ 		margin: -10px;
+ 		padding: 10;
+ 		overflow: hidden;
+ 		background-color: #333;
+ 	 }
+li {
+ 		float: left;
+ 	 }
+
+li a {
+ 		display: block;
+ 		color: white;
+ 		text-align: center;
+ 		padding: 8px 14px;
+ 		text-decoration: none;
+ 		 }
+
+li a:hover {
+ 		background-color: #808080;
+ 			     }
+
+.navbar1{
+  background-image: url("categor1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.listcat {
+    width: 1200px;
+    margin-left: 70px;
+}
+
+.listcat a {
+    background-color: #333;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.listcat a:hover {
+    background-color: #808080;
+}
