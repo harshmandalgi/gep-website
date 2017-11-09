@@ -11,8 +11,11 @@
 
 </head>
 
-<body bgcolor=black>
-
+<body bgcolor=black  onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    
+    
+<div style="display:none;" id="myDiv" class="animate-bottom">
 <div id="header">
 	<div id="navbar" >
 
@@ -74,6 +77,18 @@
 		 <li> <a style="background-color: #1178b3;"href="https://linkedin.com" target="_blank"><img src="https://www.dropbox.com/s/pb0a0p7p1pwprue/linkedin-icon.png?raw=1"/></a></li>
 		</ul>
 
-	</div>
+        </div></div>
+   <script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </body>
 </html>
